@@ -4,3 +4,6 @@ This model expirements with the power of recurrent neural networks also called R
 patterns, the way RNN's does that is by taking the hidden state from the previous layer in the model and using it on the next layer in the model
 This is what makes it possible to give it a short term memory. which is perfect for a picture like these handwritten numbers where there aren't many pixels
 For this model tensorflow 1.8 has been used and python 3.6
+To run this model, simply install tensorflow via pip: pip install tensorflow
+This will get you the cpu version and the training time will not be too long.
+
